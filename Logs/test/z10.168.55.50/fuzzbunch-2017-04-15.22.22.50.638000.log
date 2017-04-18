@@ -1,0 +1,7 @@
+
+[*] Initializing Global State
+[+] Set TargetIp => 10.168.55.50
+[+] Set CallbackIp => 10.170.9.35
+
+[+] Redirection ON
+[+] Set LogDir => G:\shadowbroker-windows\Logs\test\z10.168.55.50

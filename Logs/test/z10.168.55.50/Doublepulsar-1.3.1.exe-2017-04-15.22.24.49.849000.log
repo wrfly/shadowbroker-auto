@@ -1,0 +1,4 @@
+[+] Selected Protocol SMB
+[+] Writing Installer to disk
+[*] Deleting old version of OutputFile if it exists
+[*] Shellcode written to OutputFile
