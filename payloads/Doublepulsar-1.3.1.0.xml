@@ -24,7 +24,7 @@
         </paramchoice>
         
         <paramchoice name="Architecture" xdevmap="DOUBLEPULSAR_ARCHITECTURE_TYPE" description="Architecture of the target OS">
-            <default>x86</default>
+            <default>x64</default>
             <paramgroup name="x86" description="x86 32-bits">
             </paramgroup>
             <paramgroup name="x64" description="x64 64-bits">
@@ -32,7 +32,7 @@
         </paramchoice>
 
         <paramchoice name="Function" xdevmap="DOUBLEPULSAR_FUNCTION_TYPE" description="Operation for backdoor to perform">
-            <default>OutputInstall</default>
+            <default>RunDLL</default>
             <paramgroup name="OutputInstall" description="Only output the install shellcode to a binary file on disk.">
                 <parameter name="OutputFile" description="Full path to the output file" type="String"/>
             </paramgroup>

@@ -23,9 +23,9 @@ PAYLOAD_DIR = os.path.join(FB_DIR, "payloads")
 EXPLOIT_DIR = os.path.join(FB_DIR, "exploits")
 TOUCH_DIR   = os.path.join(FB_DIR, "touches")
 IMPLANT_DIR = os.path.join(FB_DIR, "implants")
-LP_DIR      = os.path.join(FB_DIR, "listeningposts")
-EDE_DIR     = os.path.join(FB_DIR, "ede-exploits")
-TRIGGER_DIR = os.path.join(FB_DIR, "triggers")
+# LP_DIR      = os.path.join(FB_DIR, "listeningposts")
+# EDE_DIR     = os.path.join(FB_DIR, "ede-exploits")
+# TRIGGER_DIR = os.path.join(FB_DIR, "triggers")
 SPECIAL_DIR = os.path.join(FB_DIR, "specials")
 
 """
@@ -52,7 +52,7 @@ def do_interactive(fb):
 
 def main(fb):
     fb.printbanner()
-    fb.cmdqueue.append("retarget")
+    # fb.cmdqueue.append("retarget")
     while 1:
         try:
             fb.cmdloop()

@@ -955,7 +955,7 @@ class Fuzzbunch(FbCmd):
             target = self.getip_prompt("Target IP Address",
                                        self.fbglobalvars.get('targetip', ''))
             callback = self.getip_prompt("Callback IP Address", '')
-            redirection = self.io.prompt_user("Use Redirection", "yes")
+            redirection = self.io.prompt_user("Use Redirection", "no")
             if redirection.lower() in ("no", "n", "off"):
                 redirection = "off"
             else:

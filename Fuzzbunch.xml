@@ -13,10 +13,10 @@
                  type="U16"
                  default="60"/>
 
-    <t:parameter name="ResourcesDir"
+<!--     <t:parameter name="ResourcesDir"
                  description="Absolute path of the Resources Directory"
                  type="String"
-                 default="G:\shadowbroker-windows\Resources"/>
+                 default="G:\shadowbroker\Resources"/> -->
 
     <t:parameter name="LogDir"
                  description="Absolute path of an Initial Log Directory"
@@ -33,8 +33,10 @@
                  type="Boolean"
                  default="False"/>
 
-    <t:redirection value="on" />
+    <t:redirection value="off" />
+    <!-- <t:redirection value="on" /> -->
 
+    <!-- <t:runmode value="noninteractive" /> -->
     <t:runmode value="interactive" />
 
     <t:autorun value="on">

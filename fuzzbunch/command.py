@@ -53,6 +53,7 @@ class FbCmd(cmd.Cmd):
         # Set our I/O handlers
         self.init_io(stdin=stdin, stdout=stdout, stderr=stdout, enablecolor=enablecolor)
         self.runmode_interactive()      # default to interactive mode
+        # self.runmode_noninteractive()
 
         self.promptpre   = PROMPT_PRE
         self.completekey = 'tab'
