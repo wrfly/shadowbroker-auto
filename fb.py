@@ -14,7 +14,7 @@ Set up core paths
 """ 
 Make sure our libraries are setup properly 
 """
-#env.setup_lib_paths(os.path.abspath(__file__), EDFLIB_DIR)
+env.setup_lib_paths(os.path.abspath(__file__), EDFLIB_DIR)
 
 """
 Plugin directories
@@ -51,6 +51,8 @@ def do_interactive(fb):
 
 def main(fb,INPUT=None):
     if INPUT != None:
+        fb.preloop()
+        fb.io.pre_input(fb.complete)
         fb.do_script(INPUT)
     while 1:
         try:

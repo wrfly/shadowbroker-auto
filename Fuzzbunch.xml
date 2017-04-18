@@ -21,7 +21,7 @@
     <t:parameter name="LogDir"
                  description="Absolute path of an Initial Log Directory"
                  type="String"
-                 default="G:\logs"/>
+                 default="logs"/>
 
     <t:parameter name="Color"
                  description="Enable or disable color within Fuzzbunch"
@@ -39,7 +39,7 @@
     <!-- <t:runmode value="noninteractive" /> -->
     <t:runmode value="interactive" />
 
-    <t:autorun value="on">
+    <t:autorun value="off">
         <t:category name="ImplantConfig">
             <t:command value="prompt confirm"/>
             <t:command value="execute"/>
