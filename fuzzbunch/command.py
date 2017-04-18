@@ -284,12 +284,13 @@ class FbCmd(cmd.Cmd):
     def default(self, line):
         """Called when command prefix is not recognized."""
         cmd, arg, line = self.parseline(line)
-
         # Check if the current context handles the cmd instead
         try:
             func = self.ctx.lookup_function(cmd)
         except AttributeError:
             self.io.print_error("Unknown syntax: %s" % line)
+        except Exception as e:
+            self.io.print_error("Unknown Error: %s" % e)
         else:
             func(arg)
 
@@ -552,5 +553,6 @@ class FbCmd(cmd.Cmd):
 if __name__ == "__main__":
     fb = FbCmd()
     fb.cmdloop()
+    # fb.do_script()
 
 

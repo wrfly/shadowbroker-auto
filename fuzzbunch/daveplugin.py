@@ -220,7 +220,7 @@ class DAVEPlugin(EDFPlugin):
     Plugin execution routine
 
     """
-    def execute(self, session, consolemode, interactive, scripted, globalvars={}, runMode='', archOs='x86-Windows', listenPort=0):
+    def execute(self, session, consolemode, interactive, scripted, globalvars={}, runMode='FB', archOs='x86-Windows', listenPort=0):
         self.lastsession = session
         baseDir, logDir = session.get_dirs()
         waitmode, newconsole = self.get_runflags(consolemode, interactive, scripted)
@@ -228,6 +228,9 @@ class DAVEPlugin(EDFPlugin):
 
         # Save history
         session.history = self.getParameters()
+
+        # by wrfly
+        runMode='FB'
 
         # Prompt for run mode
         if runMode in ("DANE", "DAVE"):

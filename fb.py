@@ -35,7 +35,6 @@ LOG_DIR    = os.path.join(FB_DIR, "logs")
 FB_CONFIG = os.path.join(FB_DIR, "Fuzzbunch.xml")
 
 from fuzzbunch.edfplugin import EDFPlugin
-#from fuzzbunch.edeplugin import EDEPlugin
 from fuzzbunch.fuzzbunch import Fuzzbunch
 from fuzzbunch.pluginfinder import addplugins, PluginfinderError
 from fuzzbunch import exception
@@ -50,9 +49,9 @@ def do_interactive(fb):
     fb.io.print_warning("Press Ctrl-D to exit")
     code.interact(local=gvars, banner="")
 
-def main(fb):
-    fb.printbanner()
-    # fb.cmdqueue.append("retarget")
+def main(fb,INPUT=None):
+    if INPUT != None:
+        fb.do_script(INPUT)
     while 1:
         try:
             fb.cmdloop()
@@ -81,7 +80,13 @@ def setup_and_run(config, fbdir, logdir):
     fb = Fuzzbunch(config, fbdir, logdir)
     fb.printbanner()
     load_plugins(fb)
-    main(fb)
+    try:
+        sys.argv[1]
+    except IndexError:
+        main(fb)
+    else:
+        f = sys.argv[1]
+        main(fb,f)
 
 if __name__ == "__main__":
     setup_and_run(FB_CONFIG, FB_DIR, LOG_DIR)
