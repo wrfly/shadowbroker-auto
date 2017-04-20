@@ -1,0 +1,12 @@
+[*] Connecting to target for exploitation.
+    [+] Connection established for exploitation.
+[*] Pinging backdoor...
+    [+] Backdoor returned code: 10 - Success!
+    [+] Ping returned Target architecture: x86 (32-bit)
+    [+] Backdoor is already installed -- nothing to be done.
+[*] CORE sent serialized output blob (2 bytes):
+0x00000000  08 01                                            ..
+[*] Received output parameters from CORE
+[+] CORE terminated with status code 0x00000000
+[*] Loopback: Core thread exit code: 0x00000000
+[*] Loopback: Proxy thread exit code:   0x00000000

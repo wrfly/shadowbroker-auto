@@ -1,3 +1,7 @@
 # AutoRun ShadowBroker
 
-python fb.py test.sh
+`python fb.py test.sh`
+
+or
+
+`fb > script test.sh`

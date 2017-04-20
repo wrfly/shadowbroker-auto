@@ -1,0 +1,25 @@
+[*] Connecting to target for exploitation.
+    [+] Connection established for exploitation.
+[*] Pinging backdoor...
+    [+] Backdoor not installed, game on.
+[*] Building exploit buffer
+[*] Sending all but last fragment of exploit packet
+    ................DONE.
+[*] Sending SMB Echo request
+[*] Good reply from SMB Echo request
+[*] Starting non-paged pool grooming
+    [+] Sending SMBv2 buffers
+        .............DONE.
+    [+] Sending large SMBv1 buffer..DONE.
+    [+] Sending final SMBv2 buffers......DONE.
+    [+] Closing SMBv1 connection creating free hole adjacent to SMBv2 buffer.
+[*] Sending SMB Echo request
+[*] Good reply from SMB Echo request
+[*] Sending last fragment of exploit packet!
+    DONE.
+[*] Receiving response from exploit packet
+[-] No response received from exploit packet. Not good.
+[+] CORE terminated with status code 0xdf5d0013
+[-] Error getting output back from Core; aborting...
+[*] Core thread exit code: 0x00000000
+[*] Proxy thread exit code:   0x00000000

