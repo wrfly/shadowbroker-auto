@@ -21,7 +21,7 @@
     <t:parameter name="LogDir"
                  description="Absolute path of an Initial Log Directory"
                  type="String"
-                 default="G:\logs"/>
+                 default="C:\Windows\Temp"/>
 
     <t:parameter name="Color"
                  description="Enable or disable color within Fuzzbunch"
